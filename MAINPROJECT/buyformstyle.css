@@ -1,0 +1,319 @@
+body{
+  background-color: whitesmoke;
+}   
+    
+    img{
+        width: 100%;
+      }
+        
+  .header{
+  color: white;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 28px;
+  height:70px;
+  width:100%;
+  background-image: url("header.jpg");
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  border:3px solid black;
+  
+  }
+  
+  
+  
+  
+  .logo5{
+    position: absolute;
+  margin-top:0.5%;
+  margin-left:88%;
+  height:80px;
+  width:100px;
+  }
+  
+      
+     
+   
+  .logo2{
+    margin-left: 8%;
+    font-size: 40px;
+    font-weight: Bold;
+   
+  }
+  
+  .backimg{
+    width:100%;
+    height:100%
+  }
+  
+  .logo1{
+    height:70px;
+    width:70px;
+  }
+  
+  a{
+    color:white;
+    text-decoration:none;
+  }
+  
+  .a{
+    text-decoration:none;display:flex;
+    align-items: center;
+    justify-content: center;
+    Font-weight:Bold;
+    color:White;
+    width:100%;
+    height:100%;
+    background-color:deepskyblue;
+  border:4px solid black;
+    font-size:40px;
+    background-color: transparent;
+    border:none;
+  }
+   
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      .product1{  height:250px;
+    width:90%;
+    background-color:transparent;
+    margin-top: 2%;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+  
+    line-height:1.25;
+    margin-left: 5%;
+    
+  }
+  
+  
+  .impro1{
+    height:100%;
+    width:20%;
+    margin-left:4%;
+    border-radius: 10px;
+border: 2px solid black;
+  
+    }
+  
+  
+  .info1
+  {align-items:center;
+    height:100%;
+    width:50%;
+    margin-left:10%;
+    
+  }
+  
+  .infoh1{
+    color:#302F5B;
+    font-weight:bold;
+    font-size:25px;
+  
+  }
+  
+  .infop1{
+    color:grey;
+    font-size:15px;
+  }
+  
+  .infop2{
+    font-size:22px;
+    color: limegreen;
+    font-weight:bold;
+  }
+  
+  
+  .infobutton{
+    border:1.5px solid limegreen;
+    background: rgba(50,205,50,0.1);
+    font-weight: bold;
+  }
+  
+  
+  
+  .highlight{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  
+  strike{
+    font-weight:bold;
+    font-size:25px;
+    color:grey;
+  }
+  
+  .realprice{
+      font-weight:bold;
+      font-size:25px;
+       color:#302F5B;
+       text-decoration:underline;
+  }
+  
+  .left{
+    color:red;
+    font-size:15px;
+  }
+  
+  
+  
+  
+  
+  
+       hr{ box-shadow: 0px 0px 10px rgba(30, 30, 200, 1);
+        margin-top: 2%;
+        margin-bottom: 2%;
+       }
+  
+  
+  .mainproduct{
+    display:flex;
+    align-items: center;
+  }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     .info{
+        width:20%;
+        display:flex;
+        
+         }
+         
+         
+         
+         input{
+               box-shadow: 5px 5px 15px rgba(30,30,200,0.5);
+           width:300px;
+           border: 3px solid deepskyblue;
+           height:20px;
+           border-radius:15px;
+           background-color: rgba(0,204,255,0.05);
+           text-align: center;
+         }
+         
+         .h1,li,select{
+           font-size: 20px;
+           font-weight: bold;
+           color:rgba(30,30,200,1);
+         }
+         
+      
+      input:active{
+        border: 3px solid orange;
+        
+        
+      }
+      
+      
+      .info2{
+        
+               
+  width:45%;
+        z-index:-1;
+        display:flex;
+        align-items:center;
+        justify-content:start;
+      }
+      
+      .maininfo{
+        display:flex;
+      }
+  
+  select{
+    height:30px;
+    width:95px;
+   
+    border-radius:10px;
+    border:3px solid deepskyblue;
+   }
+      
+      .briefinfo1{
+        font-size: 20px;
+        display:flex;
+      }
+      
+      
+      
+      
+      .lime{
+        color:rgb(7, 0, 53);
+      }
+      
+      
+      .lastul{
+  
+         height: 300px;
+         border:2px solid deepskyblue;
+         width:90%;
+         border-radius:15px;
+         background-color: rgba(0,204,255,0.1);
+         margin-left:5%;
+         line-height: 0.8;
+       }
+       
+      
+      
+      
+  .buy1{
+    display:flex;
+    width:100%;
+    height:60px;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    font-size:40px;
+  }
+  
+  
+  .cancel{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    Font-weight:Bold;
+    color:White;
+    width:50%;
+    height:100%;
+    background-color:deepskyblue;
+  border:4px solid black;
+  }
+  .placeorder{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    Font-weight:Bold;
+    color:White;
+    width:50%;
+    height:100%;
+    background-color:orange;
+  border:4px solid black;
+  }
+  
+  
+  .fontsize{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  

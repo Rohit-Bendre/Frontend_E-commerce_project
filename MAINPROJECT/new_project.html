@@ -1,0 +1,1598 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+
+  <title> button </title>
+  
+  
+
+ <style>
+
+.maincontainer{
+  width: 100%;
+  border: solid black 2px;
+  overflow: hidden;
+  margin-top: 0.5%; 
+  box-shadow: 10px 10px 15px rgba(30,30,200,0.5);
+}
+
+.slidediv{
+   width:400% ;
+    height:100px; 
+     
+display:flex;
+
+ overflow: hidden;
+}
+
+.slideimg{
+  width:100%; 
+  height:100px;
+   border-right: solid black 2px;
+animation: slide 16s infinite;
+}
+
+body{
+  background-color: rgb(229, 226, 226);
+
+}
+ 
+.linediv{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+   
+  .logo,.logo1,.logo2,.logo3,.logo5{
+  
+   
+      color:white;
+     font-size:30px;
+     font-weight:bold;
+   }
+ 
+  
+   button:active{
+     background-color: #59D2FE;
+        }
+ 
+
+  .header{
+
+    color: white;
+font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 28px;
+     height:70px;
+     width:100%;
+background-image: url("header.jpg");
+background-size: cover;
+display:flex;
+  align-items:center;
+  justify-content:space-between;
+     border:3px solid black;
+    overflow: hidden;
+   }
+ 
+.logo3{
+  margin-right:20px;
+  height:35px;
+  width:35px;
+}
+
+
+.logo1{
+  margin-left:20px;
+   height:35px;
+   width:35px;
+}
+
+
+.logo5{
+  margin-top:0.5%;
+  height:80px;
+  width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.place{
+  height:28px;
+  width:600px;
+  border-radius:20px 0px 0px 20px;
+  text-align: center;
+  border:2px solid orange;
+  
+}
+
+
+.search{
+  
+   display:flex;
+  align-items: center;
+    width:700px;
+ }
+
+
+.searchlogo{
+  height:28.5px;
+
+  width:35px;
+  background-color: orange;
+  border:3px solid orange;
+  border-radius:0px 25px 25px 0px;
+}
+
+
+
+
+.searchlogo:hover{
+  background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+
+    25%{
+        transform: translateX(-100%);
+    }
+
+50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+
+
+    75%{
+        transform: translateX(-200%);
+    }
+
+    80%{
+        transform: translateX(-300%);
+
+    }
+
+
+    100%{
+        transform: translateX(-300%);
+    }
+    
+  }
+
+
+img{
+    width: 100%;
+}
+
+
+
+
+.product1{  height:260px;
+  width:95%;
+  background-color:white;
+  border:2px solid skyblue;
+  border-radius:20px;
+  display:flex;
+  align-items:flex-start;
+  box-shadow: 10px 10px 15px rgba(30,30,200,0.5);
+  
+overflow:hidden;
+line-height:1;
+  margin-left: 2.5%;
+}
+
+
+.exclusive{
+  width:20%;
+  display:flex;
+
+  height:100%
+
+}
+
+.ex_content{
+position:relative;
+  height:20px;
+  width:100%;
+  padding:8px;
+  background-color: #1290ff;
+color:white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:20px;
+border-radius: 0px 0px 0px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-left:  3px solid skyblue;
+border-bottom:  3px solid skyblue;
+overflow: hidden;
+background-size:cover;
+}
+
+.ex_content:before{
+  content:'';
+  position:absolute;
+  height:100px;
+  width:20px;
+  background:#ffffff;
+  box-shadow:0 0 10px #fff;
+  filter:blur(5px);
+opacity:0.8;
+
+animation: exc 2s infinite;
+
+}
+
+
+@keyframes exc{
+  0%{transform:rotate(20deg) translateX(-150px);}
+  100%{transform:rotate(20deg) translateX(150px);}
+}
+
+
+.productx{  height:200px;
+  width:23%;
+  background-color:white;
+  border:2px solid skyblue;
+  border-radius:15px;
+  display:flex;
+  align-items: center;
+  box-shadow: 10px 10px 15px rgba(30,30,200,0.5);
+  line-height: 0.9;  
+text-decoration: none;
+}
+
+
+
+.impro1{
+  height:90%;
+  width:18%;
+  margin-left:2%;
+  margin-top:0.5%;
+  border:5px solid white;
+  border-radius:15px;
+box-shadow: 10px 10px 15px rgba(30,30,200,0.5);
+  }
+
+  
+.improx{
+  height:83%;
+  width:45%;
+  margin-left:2%;
+  border:3px solid white;
+  border-radius:15px;
+box-shadow: 5px 5px 10px rgba(30,30,200,0.5);
+  }
+
+
+.impro1:hover{
+  border:2px solid deepskyblue;
+}
+
+.infox{
+    margin-left: 3%;
+    height: 100%;
+    width:45%;
+    
+overflow:hidden;
+    line-height: 0.9;
+
+}
+
+.info1
+{align-items:center;
+  height:100%;
+  width:60%;
+  margin-left:5%;
+  
+}
+
+
+
+.infoh1{
+  color:#302F5B;
+  font-weight:bold;
+  font-size:23px;
+
+}
+
+.p_1{
+  color:grey;
+  font-size:14px;
+}
+
+
+.infop1{
+  color:grey;
+  font-size:14px;
+}
+.off_h2{
+  font-size:20px;
+  color: limegreen;
+  font-weight:bold;
+ 
+}
+
+.infop2{
+  font-size:25px;
+  color: limegreen;
+  font-weight:bolder;
+ 
+}
+
+
+
+.infobutton{
+  border:1.5px solid limegreen;
+  background: rgba(50,205,50,0.1);
+  padding:3px;
+  font-weight: bold;
+}
+
+
+
+.highlight{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+
+
+strike{
+  font-weight:bold;
+  font-size:15px;
+  color:rgb(84, 84, 84);
+}
+
+
+.strike1{
+  font-weight:bold;
+  font-size:20px;
+  color:rgb(84, 84, 84);
+}
+
+.realprice{
+  color:#01002d;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+
+.realprice1{
+  color:#01002d;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+
+
+
+
+.info_h2{
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color:#302F5B;
+     
+}
+
+.left{
+  color:red;
+  font-size:10px;
+}
+
+.left1{
+  color:red;
+  font-size:14px;
+}
+
+
+
+.checkout{
+  font-size:15px;
+  color:white;
+  font-weight:bold;
+  padding:5px;
+  border:2px solid blue;
+
+
+  background-image: url("header.jpg") ;
+ 
+
+ background-size:cover;
+  border-radius:35px;
+  
+margin-left: 25%;
+box-shadow: 5px 5px 5px rgba(30,30,200,0.4);
+}
+
+
+
+
+.checkout:active{
+  background-color:blue 
+}
+
+
+.phr{
+  margin-top:20px;
+  margin-bottom:20px;
+ box-shadow: 0px 0px 7px rgba(30, 30, 200, 1);
+}
+
+
+
+
+
+.mainproduct{
+  display:flex;
+  align-items: center;
+}
+
+
+.itemlist{
+  height:170px;
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  align-items:center;
+
+}
+
+
+
+.itemblock{
+  background-image: url("ecomphoto.jpg") ;
+
+
+
+  width:95%;
+   border:2px solid deepskyblue;
+   border-radius:10px;
+   box-shadow: 5px 5px 10px rgba(30, 30, 200, 0.4);
+}
+
+
+
+.item{
+  overflow: hidden;
+  background-color: white;
+  line-height: 0;
+  height:100%;
+  width:10%;
+   border:2px solid deepskyblue;
+   border-radius:10px;
+   box-shadow: 5px 5px 10px rgba(30, 30, 200, 0.4);
+}
+
+
+
+
+
+.itemimg{
+  height:70%;
+  width:100%;
+  border-top: 2px solid deepskyblue;
+  border-bottom: 2px solid deepskyblue;
+}
+
+.itemh1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  color: rebeccapurple;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+marquee{
+  
+  border:4px solid black;
+  background-color: deepskyblue;
+
+
+  height:30px;
+  width:95%;
+  display:flex;
+  align-items: center;
+  color:black;
+  font-weight:bold;
+  font-size:25px;
+  
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+.deals{
+box-shadow: 10px 10px 10px rgba(30, 30, 200, 0.4);
+
+
+  
+  border-left: 4px solid black;
+border-right: 4px solid black;
+border-bottom: 4px solid black;
+  
+          
+  height:150px;
+  width:95%;
+  background: rgba(0, 255, 255, 0.3);
+  
+
+
+  border-radius: 0px 0px 15px 15px;
+  
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+
+
+.saleitem{
+  height : 100%;
+  width:80%;
+  
+}
+
+
+.saleitemdiv{
+  
+  height:80%;
+ 
+
+ width:20%;
+  
+}
+
+.lefty{
+border-right: 2px solid black;
+     
+}
+
+.midlogo{
+  height:80px;
+  width:150px;
+}
+
+.hrlogo{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:40px;
+  margin-bottom:3%;
+  margin-top:2%;
+}
+
+.infopanel{
+  height:150px;
+  width:100%;
+  display:flex;
+ 
+}
+
+
+.column1{
+  height:100%;
+  width:25%;
+  font-weight:normal;
+  
+}
+
+
+.column2{
+  
+  border-right: 2px solid deepskyblue;
+  
+}
+
+
+.panel1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height:30px;
+  width:100%;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+border-bottom: 2px solid deepskyblue;
+}
+
+
+
+.panel2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  height:250px;
+        width:100%;
+        color:rgb(255, 255, 255);
+        font-weight:bold;    
+  }
+
+
+.panel3{
+  display:flex;
+  align-items:center;
+  color:white;
+  justify-content:center;
+  height:35px;
+   border-top: 2px solid deepskyblue;
+   border-bottom: 2px solid deepskyblue;
+}
+
+
+
+.panel4{
+  background-color:black;
+  height:30px;
+  width:100%;
+
+}
+
+footer{
+  margin-top: 4%; 
+  border:4px solid deepskyblue;
+  background-image:  url("footerbg.jpg");
+ width:100%;
+  background-size: cover;
+}
+
+
+</style>
+</head>
+
+<body >
+<div class="header">
+
+
+
+
+
+  <div class="logo1"><img src="menubar.png"></div>
+  
+   <div class="logo5" style="margin-top: 2%;"><img src="company.png"></div>
+
+  <div class="logo"> HOME </div>
+
+  
+  <div class="search">
+    <input type="text" placeholder="SEARCHE HERE" class="place">
+
+     <div style="display: flex; align-items: center;"> <img src="search. jpg.png" class="searchlogo"></div>
+  </div>
+
+
+  <div class="logo3"><img src="cart.png"></div>
+
+
+
+</div>
+
+<div class="maincontainer">
+<div class="slidediv">
+
+<img src="im1.jpg" class="slideimg">
+<img src="im3.jpg" class="slideimg">
+<img src="im4.jpg" class="slideimg">
+<img src="im3.jpg" class="slideimg">
+</div>
+
+</div>
+
+
+
+
+<hr class="phr" size="1" color="grey">
+
+
+
+<div class="linediv">
+
+ 
+<a class="productx" href="shoebuypage.html">
+
+<img src="shoeimg1.jpg" class="improx">
+<DIV class="infox">
+    <h2 class="info_h2">Nike Half Flip Flops</h2>
+    <p class="p_1">(1003+) orders in last week !</p>
+    <h2 class="off_h2"><u>23% OFF</u></h2>
+    
+ <strike> 899 </strike> &nbsp;  <b class="realprice">599 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 78 items left</p>
+</div>
+
+</a>
+
+
+
+
+<div class="productx">
+    <img src="impro3.jpg" class="improx">
+    <DIV class="infox">
+      <h2 class="info_h2">Mivi Bassbuds Duo X3</h2>
+    <p class="p_1">(402+) orders in last week !</p>
+    <h2 class="off_h2"><u>47% OFF</u></h2>
+    
+ <strike> 3099 </strike> &nbsp;  <b class="realprice">1499 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 607 items left</p>
+    </div>
+    </div>
+
+
+
+
+    <div class="productx">
+    
+      <img src="impro2.jpg" class="improx">
+      <DIV class="infox">
+          <h2 class="info_h2">Pure Cotton Blend Shirt</h2>
+          <p class="p_1">(1050+) orders in last week !</p>
+          <h2 class="off_h2"><u>50% OFF</u></h2>
+          
+       <strike> 899 </strike> &nbsp;  <b class="realprice">359 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 47 items left</p>
+      </div>
+      </div>
+      
+      
+      <div class="productx">
+          <img src="impro4.jpg" class="improx">
+          <DIV class="infox">
+            <h2 class="info_h2">Decorated Elephent piece</h2>
+          <p class="p_1">(507+) orders in last week !</p>
+          <h2 class="off_h2"><u>56% OFF</u></h2>
+          
+       <strike> 699 </strike> &nbsp;  <b class="realprice">329 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 8 items left</p>
+          </div>
+          </div>
+
+          
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="phr" size="1" color="grey">
+
+
+
+<div class="linediv">
+
+<div class="productx">
+    
+<img src="impro5.jpg" class="improx">
+<DIV class="infox">
+    <h2 class="info_h2">Canon Mark D7500</h2>
+    <p class="p_1">(104+) orders in last week !</p>
+    <h2 class="off_h2"><u>9% OFF</u></h2>
+    
+ <strike> 79,999 </strike> &nbsp;  <b class="realprice">71,999 /-</b>
+ <br>
+ <p class="left">HURRY UP ! only 6 items left</p>
+</div>
+</div>
+
+
+
+
+<div class="productx">
+    <img src="newproduct2.jpg" class="improx">
+    <DIV class="infox">
+      <h2 class="info_h2">Fancy Mask For boys</h2>
+    <p class="p_1">(205+) orders in last week !</p>
+    <h2 class="off_h2"><u>10% OFF</u></h2>
+    
+ <strike> 199 </strike> &nbsp;  <b class="realprice">189 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 78 items left</p>
+    </div>
+    </div>
+
+
+
+
+    <div class="productx">
+    
+      <img src="newproduct3.jpg" class="improx">
+      <DIV class="infox">
+          <h2 class="info_h2">Fancy Mask For Girls</h2>
+          <p class="p_1">(105+) orders in last week !</p>
+          <h2 class="off_h2"><u>5% OFF</u></h2>
+          
+       <strike> 150 </strike> &nbsp;  <b class="realprice">142 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 75 items left</p>
+      </div>
+      </div>
+      
+      
+      <div class="productx">
+          <img src="newproduct4.jpg" class="improx">
+          <DIV class="infox">
+            <h2 class="info_h2">Silver Rakhi rakshabandhan special</h2>
+          <p class="p_1">(503+) orders in last week !</p>
+          <h2 class="off_h2"><u>5% OFF</u></h2>
+          
+       <strike>499</strike> &nbsp;  <b class="realprice">475 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 702 items left</p>
+          </div>
+          </div>
+
+          
+</div>
+
+
+
+
+
+<hr class="phr" size="1" color="grey">
+
+
+
+<div class="linediv">
+
+<div class="productx">
+    
+<img src="newproduct5.jpg" class="improx">
+<DIV class="infox">
+    <h2 class="info_h2">Classical Rakhi Set</h2>
+    <p class="p_1">(1003+) orders in last week !</p>
+    <h2 class="off_h2"><u>10% OFF</u></h2>
+    
+ <strike> 699 </strike> &nbsp;  <b class="realprice">619 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 798 items left</p>
+</div>
+</div>
+
+
+
+
+<div class="productx">
+    <img src="newproduct6.jpg" class="improx">
+    <DIV class="infox">
+      <h2 class="info_h2">God Sign Rakhi</h2>
+    <p class="p_1">(1003+) orders in last week !</p>
+    <h2 class="off_h2"><u>10% OFF</u></h2>
+    
+ <strike> 499 </strike> &nbsp;  <b class="realprice">449 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 89 items left</p>
+    </div>
+    </div>
+
+
+
+
+    <div class="productx">
+    
+      <img src="newproduct7.jpg" class="improx">
+      <DIV class="infox">
+          <h2 class="info_h2">American Travel Bag (silver)</h2>
+          <p class="p_1">(209+) orders in last week !</p>
+          <h2 class="off_h2"><u>15% OFF</u></h2>
+          
+       <strike> 1999 </strike> &nbsp;  <b class="realprice">1849 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 45 items left</p>
+      </div>
+      </div>
+      
+      
+      <div class="productx">
+          <img src="newproduct8.jpg" class="improx">
+          <DIV class="infox">
+            <h2 class="info_h2">American Travel Bag (silver)</h2>
+          <p class="p_1">(75+) orders in last week !</p>
+          <h2 class="off_h2"><u>10% OFF</u></h2>
+          
+       <strike> 899 </strike> &nbsp;  <b class="realprice">819 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 4 items left</p>
+          </div>
+          </div>
+
+          
+</div>
+
+
+
+
+
+<hr class="phr" size="1" color="grey">
+
+
+
+<div class="linediv">
+
+<div class="productx">
+    
+<img src="newproduct9.jpg" class="improx">
+<DIV class="infox">
+    <h2 class="info_h2">Portronix 1000mAh Powerbank</h2>
+    <p class="p_1">(2003+) orders in last week !</p>
+    <h2 class="off_h2"><u>10% OFF</u></h2>
+    
+ <strike> 999 </strike> &nbsp;  <b class="realprice">809 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 88 items left</p>
+</div>
+</div>
+
+
+
+
+<div class="productx">
+    <img src="newproduct10.jpg" class="improx">
+    <DIV class="infox">
+      <h2 class="info_h2">Boat 20000mAh Powerbank</h2>
+    <p class="p_1">(103+) orders in last week !</p>
+    <h2 class="off_h2"><u>20% OFF</u></h2>
+    
+ <strike> 2999 </strike> &nbsp;  <b class="realprice">24,00 only/-</b>
+ <br>
+ <p class="left">HURRY UP ! only 780 items left</p>
+    </div>
+    </div>
+
+
+
+
+    <div class="productx">
+    
+      <img src="newproduct11.jpg" class="improx">
+      <DIV class="infox">
+          <h2 class="info_h2">BTS Theme 5000mAh Powerbank</h2>
+          <p class="p_1">(101+) orders in last week !</p>
+          <h2 class="off_h2"><u>50% OFF</u></h2>
+          
+       <strike> 1399 </strike> &nbsp;  <b class="realprice">799 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 78 items left</p>
+      </div>
+      </div>
+      
+      
+      <div class="productx">
+          <img src="newproduct12.jpg" class="improx">
+          <DIV class="infox">
+            <h2 class="info_h2">Storage Boxes ( Pack of 6 )</h2>
+          <p class="p_1">(1008+) orders in last week !</p>
+          <h2 class="off_h2"><u>20% OFF</u></h2>
+          
+       <strike> 499 </strike> &nbsp;  <b class="realprice">399 only/-</b>
+       <br>
+       <p class="left">HURRY UP ! only 7 items left</p>
+          </div>
+          </div>
+
+          
+</div>
+
+<hr class="phr" size="1" color="grey">
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product1">
+<img src="newproduct1.jpg" class="impro1">
+<DIV class="info1" ><h1 class="infoh1" >" Fashionable Mask<br> By ONN"</h1>
+
+<p class="infop1">
+(409+) orders in last week.</p>
+
+<div class="highlight">
+  
+ <u class="infop2">50% OFF</u> 
+
+<BUTTON class="infobutton"> Comfortable | Soft Breath </BUTTON>
+
+ <BUTTON class="infobutton">Fashonable</BUTTON>
+ 
+ <BUTTON class="infobutton">Premium Quality</BUTTON>
+ </div><br>
+ 
+ <strike class="strike1">699</strike> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b class="realprice1">349 only/-</b>
+ <br>
+ <p class="left1">HURRY UP ! only 37 items left</p>
+ 
+ 
+ 
+ <a href="maskbuypage.html"><button class="checkout"> CHECKOUT </button></a>
+
+</div>
+
+
+
+<div class="exclusive"><div class="ex_content">E X C L U S I V E</div></div>
+</div>
+
+<hr class="phr" size="1" color="grey">
+
+
+
+
+
+
+<div class="product1">
+  <img src="impro1.jpg" class="impro1">
+  <DIV class="info1"><h1 class="infoh1">" MULTICOLOR LEATHER<br> JACKET "</h1>
+  
+  <p class="infop1">
+  (6504+) orders in last week.</p>
+  
+  <div class="highlight">
+    
+   <u class="infop2">40% OFF</u> 
+  
+  <BUTTON class="infobutton"> Comfortable | Summer  Wear </BUTTON>
+  
+   <BUTTON class="infobutton">Pure Cotton </BUTTON>
+   
+   <BUTTON class="infobutton"> Soft | Lightweight</BUTTON>
+   </div><br>
+   
+   <strike class="strike1">1,999</strike> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b class="realprice1">1,099 only/-</b>
+   <br>
+   <p class="left1">HURRY UP ! only 637 items left</p>
+   
+   
+   
+   <a href="mainbuypage.html"><button class="checkout"> CHECKOUT </button></a>
+  
+  </div>
+  
+  
+
+<div class="exclusive"><div class="ex_content">E X C L U S I V E</div></div>
+
+
+  </div>
+
+
+
+
+<hr class="phr" size="1" color="grey">
+
+   
+    <center>
+   
+
+
+
+
+
+<marquee  direction="left" scrollamount="15" >BIG SAVING DEALS &nbsp; &nbsp; | &nbsp; &nbsp; VLAUE FOR MONEY &nbsp; &nbsp; | &nbsp; &nbsp; BEST PRODUCTS IN CHEAP PRICE 
+   </marquee>
+
+
+
+   
+   <div class="deals">
+     
+
+
+     
+    <div class="saleitemdiv lefty">
+      <img src="Rolex_cutter.png" class="saleitem">
+      </div>
+
+     <div class="saleitemdiv lefty">
+     <img src="mobilesale1.png" class="saleitem">
+     </div>
+     
+
+      
+
+
+   
+      <div class="saleitemdiv lefty">
+        <img src="rolex.png" class="saleitem">
+        </div>
+
+
+        <div class="saleitemdiv lefty">
+          <img src="umbrella.png" class="saleitem">
+          </div>
+
+
+
+          
+      <div class="saleitemdiv lefty">
+        <img src="kitchenwearsale1.png" class="saleitem">
+        </div>
+
+
+
+
+
+
+
+
+
+ <div class="saleitemdiv lefty">
+ <img src="menfashionsale1.png" class="saleitem">
+ </div>
+ 
+ 
+ <div class="saleitemdiv lefty">
+ <img src="beautysale1.png" class="saleitem">
+     </div>
+  
+
+   
+     
+     
+ <div class="saleitemdiv">
+     
+ <img src="toysale1.png" class="saleitem">
+   </div>
+   
+   </div>
+   
+      </center>
+   
+   
+   <br><br>
+  
+ <center> 
+  <div class="itemblock">
+  
+  
+  
+  <div class="itemlist" style="flex-wrap: wrap; margin-top: 2%;">
+
+
+    <div class="item">
+      <h3 class="itemh1">Fancy Bottles</h3>
+      <img src="newproduct13.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Get Hidrated</p>
+    </div>
+
+
+
+    <div class="item">
+      <h3 class="itemh1">Plastic Steamers</h3>
+      <img src="newproduct14.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Cook For You</p>
+    </div>
+
+
+
+    <div class="item">
+      <h3 class="itemh1">Non-team Bakers</h3>
+      <img src="newproduct15.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Stove Accesories</p>
+    </div>
+
+
+
+    
+   <div class="item" >
+        <h3 class="itemh1">HEAT OVEN</h3>
+        <img src="oven1.jpg" class="itemimg">
+        
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Bakery in Home</p>
+      </div>
+      
+
+      
+     <div class="item">
+       <h3 class="itemh1">KDM M28</h3>
+       <img src="m28.jpg" class="itemimg">
+       
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Feel The Music</p>
+     </div>
+     
+     
+      <div class="item">
+        <h3 class="itemh1">TURTLE NECK</h3>
+        <img src="tshirt.jpg" class="itemimg">
+        
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Winter Wear</p>
+    </div>
+      
+
+
+       <div class="item">
+        <h3 class="itemh1">VALUE FOR MONEY</h3>
+        <img src="redmi.jpg" class="itemimg">
+        
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Save Your Money</p>
+      </div>
+      
+
+
+       <div class="item">
+         <h3 class="itemh1">CAMERA KINGS</h3>
+       <img src="vivo.jpg" class="itemimg">
+       
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Capturing Moments</p>
+       </div>
+      
+      
+
+  </div>
+  
+
+
+
+  
+  
+  <hr class="phr" size="2px" color="deepskyblue">
+  
+
+
+
+
+  <div class="itemlist">
+  
+    <div class="item">
+      <h3 class="itemh1">Tinted Sunglass</h3>
+      <img src="newproduct16.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Wear New POV</p>
+    </div>
+  
+
+    <div class="item">
+      <h3 class="itemh1">Laptop Sleeves</h3>
+      <img src="newproduct19.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Device Protectors</p>
+    </div>
+
+
+    <div class="item">
+      <h3 class="itemh1">Travel Bags</h3>
+      <img src="newproduct18.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Ready To Tour</p>
+    </div>
+
+
+    <div class="item">
+      <h3 class="itemh1">COMFORT ZONES</h3>
+      <img src="furniture.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Home Furnitures</p>
+    </div>
+
+
+    <div class="item">
+      <h3 class="itemh1">ENLIGHT YOUR LIFE</h3>
+      <img src="bulb.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Home Lightners</p>
+    </div>
+  
+  
+    <div class="item">
+      <h3 class="itemh1">SPACE ARRANGE</h3>
+      <img src="bag.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Space Saver</p>
+    </div>
+  
+
+    <div class="item">
+      <h3 class="itemh1">PAINTINGS</h3>
+      <img src="
+paintings.jpg" class="itemimg">
+
+<p style="margin-top: 7%; font-size: 14px; font-weight:100;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">For Piece</p>
+
+    </div>
+    
+    
+    
+     <div class="item">
+       <h3 class="itemh1">MIXER GRINDER</h3>
+       <img src="mixer.jpg" class="itemimg">
+       
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Blending Special</p>
+     </div>
+  
+
+  </div>
+  
+
+
+
+
+    <hr class="phr" size="2px" color="deepskyblue">
+
+
+    <div class="itemlist" style="margin-bottom: 2%;">
+    <div class="item">
+      <h3 class="itemh1">BODY BUILDING</h3>
+    <img src="exercise.jpg" class="itemimg">
+    
+    <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gym in House</p>
+    </div>
+  
+
+
+    <div class="item">
+      <h3 class="itemh1">DINING SCENES</h3>
+      <img src="table.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Food Servers</p>
+    </div>
+  
+  
+
+    <div class="item">
+      <h3 class="itemh1">WATER DECOR</h3>
+      <img src="desert decor.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Home Decors</p>
+    </div>
+  
+
+
+    <div class="item">
+      <h3 class="itemh1">HOME APPLIANCE</h3>
+      <img src="machine.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Home Electronics</p>
+    </div>
+    
+    
+    
+     <div class="item">
+       <h3 class="itemh1">SPY GADGETS</h3>
+       <img src="camera.jpg" class="itemimg">
+       
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Privacy Snatchers</p>
+     </div>
+  
+
+     <div class="item">
+      <h3 class="itemh1">Premium Eyewear</h3>
+      <img src="newproduct17.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Look And Style</p>
+    </div>
+
+    <div class="item">
+      <h3 class="itemh1">School Bags</h3>
+      <img src="newproduct20.jpg" class="itemimg">
+      
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Get School Ready</p>
+    </div>
+
+    <div class="item">
+      <h3 class="itemh1">Chhapri Wears</h3>
+      <img src="newproduct21.jpg" class="itemimg">
+      <p style="margin-top: 7%; font-size: 14px; font-weight:100;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Be An Chhapri</p>
+    </div>
+ 
+  </div>
+  
+  
+  
+  
+  
+</center>
+
+
+
+</div>
+
+</center>
+
+
+
+<footer>
+  
+  <div class="panel1">
+  copyright &nbsp; &nbsp; :  &nbsp; &nbsp; @ROHIT.10143
+  </div>
+
+
+  
+  
+  
+  
+  
+  
+  <div class="panel2">
+    
+    <div class="hrlogo">
+
+      <img class="midlogo" src="company.png">
+
+  
+
+  
+    
+    </div>
+    
+    
+    <div class="infopanel">
+      
+      <div class="column1 column2">
+        <ul>
+          <li>designation:<br>
+          BCAFY student</li><br>
+          <li>N.M.S COLLEGE,selu</li><br>
+          <li>partur road.</li><br>
+          <li>tq.selu. <br></li>
+        <br>
+        <li>dist. parbhani</li>
+        </ul>
+        
+      </div>
+      
+      
+       <div class="column1 column2">
+         <ul>
+          <li>an product, made by<br>
+         using HTML & CSS only.</li><br>
+          <li>N.M.S COLLEGE,selu</li><br>
+          <li>partur road.</li><br>
+          <li>tq.selu. <br></li>
+        <br>
+        <li>dist. parbhani</li>
+        </ul>
+        </div>
+        
+        
+       <div class="column1 column2">
+          <ul>
+            <li>an product, made by<br>
+              using HTML & CSS only.</li><br>
+            <li>N.M.S COLLEGE,selu</li><br>
+            <li>partur road.</li><br>
+            <li>tq.selu. <br></li>
+            <br>
+            <li>dist. parbhani</li>
+          </ul>
+          
+       </div>
+       
+       
+       <div class="column1">
+          <ul>
+          <li>an product, made by<br>
+            using HTML & CSS only.</li><br>
+          <li>N.M.S COLLEGE,selu</li><br>
+          <li>partur road.</li><br>
+          <li>tq.selu. <br></li>
+          <br>
+          <li>dist. parbhani</li>
+        </ul>
+        </div>
+      
+
+  
+    </div>
+    
+    
+    
+  </div>
+  
+  
+  
+  
+  
+  <div class="panel3">
+    
+   <h3> Buisness Contact : rohitbendre34@gmail.com 
+    </h3>
+    </div>
+    
+    
+    
+    <div class="panel4">
+      
+       </div>
+  
+</footer>
+
+</body>
+
+</html>

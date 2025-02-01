@@ -1,0 +1,322 @@
+.backimg{
+  width:100%;
+  height:100%
+}
+.logo1{
+  height:70px;
+  width:70px;
+}
+
+.highlight_feature{
+    height:100%;
+     line-height: 0;
+      width:33.33%; 
+      border-right: 2px solid deepskyblue; 
+  }
+  .buypage_image{
+    height:250px;
+    width:210px;
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 15px rgba(30,30,200,0.5);
+  }
+  
+  .images{
+    background-color: #ffffff;
+    margin-top: 1%;
+    width: 95%;
+    height: 290px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 15px rgba(30,30,200,0.5);
+  }
+  
+  
+  
+   
+  body{
+    background-color: rgb(248, 248, 248);
+  }
+    
+    
+  .infop1{
+    color:grey;
+    font-size:16px;
+  }
+    
+  .header{
+  color: white;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 28px;
+  height:70px;
+  width:100%;
+  background-image: url("header.jpg");
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border:3px solid black;
+  
+  }
+  
+  .logo3{
+  margin-right:20px;
+  height:35px;
+  width:35px;
+  }
+  
+  
+  .logo1{
+  margin-left:20px;
+  font-size: 40px;
+  color: black;
+  }
+  
+  
+  .logo5{
+  margin-top:0.5%;
+  height:80px;
+  width:100px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .place{
+  height:28px;
+  width:600px;
+  border-radius:20px 0px 0px 20px;
+  text-align: center;
+  border:2px solid orange;
+  
+  }
+  
+  
+  .search{
+  
+  display:flex;
+  align-items: center;
+  width:700px;
+  }
+  
+  
+  .searchlogo{
+  height:28.5px;
+  
+  width:35px;
+  background-color: orange;
+  border:3px solid orange;
+  border-radius:0px 25px 25px 0px;
+  }
+  
+  
+  
+  
+  .searchlogo:hover{
+  background-color: orangered;
+  }
+  
+  
+  img{
+    width:100%;
+  }
+  
+  .infoh{
+    color: #302F5B;
+    font-weight: bolder;
+    font-size: 25px;
+  
+  }
+       .infop2{
+    font-size:25px;
+    color: limegreen;
+    font-weight:bolder;
+  }
+  
+  
+  .infobutton{
+    border:1.5px solid limegreen;
+    background: rgba(50,205,50,0.1);
+    font-weight: bold;
+  }
+  
+  
+  
+  .highlight{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  
+  .strikeprice{
+    font-weight:bold;
+    font-size:25px;
+    color:grey;
+  }
+  
+  .realprice{
+      font-weight:bold;
+      font-size:30px;
+       color:#302F5B;
+       text-decoration:underline;
+  }
+  
+  .left{
+    color:red;
+    font-size:18px;
+  }
+  
+  .buyproductinfo{
+    width:90%;
+   margin-left:5%;
+  }
+       hr{
+        box-shadow: 0px 0px 10px rgba(30, 30, 200, 1);
+        margin-top: 2%;
+        margin-bottom: 2%;
+       }
+       
+       
+       
+       
+       a{
+         text-decoration:none;
+         color:white;
+       }
+       
+       
+       
+       #L,#X,#M,#L,#XX,#XXL{
+         height:25px;
+         width:25px;
+       }
+       
+       
+       h2{
+         display:inline-block;
+       }
+       
+       
+       
+       .size{
+         display:flex;
+         align-items:center;
+         justify-content: space-around;
+         width:70%;
+         height:35px;
+       }
+       
+       .sizeh{
+        height: 100%;
+         display:flex;
+         align-items:center;
+         justify-content: space-between;
+       }
+       
+       
+       
+       
+       
+       
+       .lidiv{
+         display:flex;
+         align-items: center;
+         justify-content: space-between;
+         width:40%;
+       }
+       
+  
+  
+  
+  
+  .buy{
+    display:flex;
+    width:100%;
+    height:60px;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+  }
+  
+  
+  .addtocart{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    Font-weight:Bold;
+    color:White;
+    width:50%;
+    height:100%;
+    background-color:deepskyblue;
+  border:3px solid black;
+  
+  }
+  
+  .buynow{   display:flex;
+             align-items: center;
+             justify-content: center;
+             Font-weight: Bold;
+             color: White;
+             width: 50%;
+             height:100%;
+             background-color: orange;
+             border:3px solid black;
+            
+           }
+  
+       .star{
+         height:20px;
+       width:100px
+       }
+       
+       
+       
+       .briefinfo{
+         display:flex;
+         font-size: 14px;
+       }
+       
+       
+       
+       
+       
+       .highlightfeature{
+         display:flex;
+         width:85%;
+         height:75px;
+         justify-content: space-evenly;
+         align-items: center;
+         border:2px solid deepskyblue;
+         border-radius:10px;
+     background-color: rgba(0,204,255,0.1);
+       }
+       
+       
+       .featureborder{
+         
+         border-right:2px solid deepskyblue;
+         
+         
+       }
+       
+       
+       .mainfeature{
+         
+         width:33.3%;
+       
+         
+         }
